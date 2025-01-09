@@ -1,0 +1,103 @@
+
+NODE JS NOTES :)
+
+
+
+URL => Uniform Resourse Locator
+
+ex:- https://www.shlok.com/
+
+https(Hypertext  Transfer Protocol Secure) - protolcol
+
+www.shlok.com - Domain { User Friendly Name of IP Address of my Server }
+
+/ - path
+
+HTTPs Methods-->>
+
+1. GET ->>  When you want to get some data from the server  // normally searching the website by chicking enter
+
+2. POST ->> When you want to sent and mutate some data from server  
+
+3. PUT 
+
+4. PATCH
+
+5. DELETE
+
+
+Express Js--)>>
+
+npm install Express
+
+
+//version --  
+
+     4.18.2
+
+// 1st part - 4  (Major / Breaking Update)
+// 2nd part - 18 (Recommended Bug Fix (Security Purpose))
+// 3rd part - 2  (Minor Fixes (Optional))
+
+
+//  ^Version ->> Compatiable with version (carrot)
+     
+      It Install all Recommended and Minor Fixes Automatically
+
+      // without ^ it can not able to Update or install  
+
+
+//  ~Version  ->>  its mean it can update only  3rd part of version
+
+
+      ex- ~4.18.1 -> ~4.18.2 ->4.18.3
+
+
+
+REST API --)
+
+
+
+MiddleWare --))  Middleware  functions that have access to the request object (req.) the response object(res), and the next middleware
+                 function in the application request-response cycle. The next middleware function is commonly denoted by a varial named next.
+
+                 Middleware functions can perform the following tasks:-
+
+                 1.execute any code 
+                 2.make changes to the request and the response objects.
+                 3.End the request - response cycle.
+                 4.call the next mmiddleware function in the stack.
+                 
+                 
+
+HTTP Header in API --))  HTTP Header are an important part of the API request and response as they represent the meta - data associated with 
+                         the API request and response.
+
+                         Header carry information for The request and Response body.
+
+
+
+HTTP response status codes --))
+
+                               HTTP response status codes indicates whether a specific HTTP request has been sucessfully completed. Response 
+                               are grouped in five classes.   
+
+
+                               1. Informational response  (100 - 199)
+                               2. Successful response     (200 - 299)
+                               3. Redirection message     (300 - 399)
+                               4. Client error response   (400 - 499)
+                               5. Server error response   (500 - 599)
+
+                               #HTTP Response status codes
+
+
+***** npm i nodemon to avoid restarting server every time
+
+
+MongoDB --))
+
+            1. No-SQL Document Based Database
+            2. Strong Support for Aggregation Pipes
+            3. Works on BSON format
+            4. Best for Node Application
